@@ -5,12 +5,13 @@ April 28, 2023 | Estelle Santini | UC Berkeley Data Analytics Bootcamp
 For this project, I designed the tables to hold the data from six CSV files, import the CSV files into a SQL database, and then answer questions about the data. That is, I performed data modeling, data engineering, and data analysis, respectively.
 
 ## Data Modeling
-Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tables. To create the sketch, feel free to use a tool like QuickDBDLinks to an external site.
+In this step I inspected the CSV files, and then sketched an Entity Relationship Diagram of the tables using the tool QuickDBDLinks.
 
 ## Data Engineering
-Use the provided information to create a table schema for each of the six CSV files: departments, dept_emp, dept_manager, employees, salaries, and titles. In this phase I specified the data types, primary keys, foreign keys, and other constraints. I verified they were unique or created composite keys, then imported each CSV file into its corresponding SQL table.
+Use the provided information to export and create a table schema for each of the six CSV files: departments, dept_emp, dept_manager, employees, salaries, and titles. In this phase I specified the data types, primary keys, foreign keys, and other constraints. I verified they were unique or created composite keys, then imported each CSV file into its corresponding SQL table.
 
 ## Data Analysis
+Finally, I wrote a separate query to practice subqueries, functions, and joins for the following questions:
 
 1. List the employee number, last name, first name, sex, and salary of each employee.
 
